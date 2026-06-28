@@ -1,8 +1,8 @@
-{
+{   "manifest_version": 3,
     "name": "Youtube Bookmarker",
     "version": "1.0",
     "description": "A Chrome extension that allows users to bookmark YouTube videos and manage their bookmarks.",
-    "manifest_version": 3,
+    
     "permissions": [
         "storage",
         "tabs",
@@ -17,7 +17,7 @@
     "content_scripts" : [
         {
             "matches" : ["https://*.youtube.com/*"],
-            "js" : ["content.js"]
+            "js" : ["contentScript.js"]
         }
 
     ],
