@@ -24,25 +24,12 @@
     "web_accessible_resources": [
         {
             "resources" : [
-                "assets/bookmark.png",
-                "assets/play.png",
-                "assets/delete.png",
-                "assets/save.png"
+                
             ],
             "matches" : ["https://*.youtube.com/*"]
 
         }
 
-    ],
-
-    "action" : {
-        "default_icon" : {
-            "16" : "assets/bookmark.png",
-            "48" : "assets/bookmark.png",
-            "128" : "assets/bookmark.png"
-        },
-        "default_title" : "Youtube Bookmarker",
-        "default_popup" : "popup.html"
-    }
+    ]
 
 }
