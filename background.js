@@ -3,10 +3,11 @@ chrome.tabs.onUpdated.addListener((tabId, tab)=>{
         const queryparameters = tab.url.split("?")[1];
         const urlParameters = new URLSearchParams(queryparameters)
 
+        console.log(urlParameters);
         chrome.tabs.sendMessage(tabId, {
             type: "NEW",
             videoId : urlParameters.get("v"),
-            
+
         })
     }   
 })
