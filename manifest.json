@@ -30,6 +30,11 @@
 
         }
 
-    ]
+    ],
+    "action" : {
+        
+        "default_title" : "Youtube Bookmarker",
+        "default_popup" : "popup.html"
+    }
 
 }
